@@ -1,0 +1,10 @@
+^C:\GIT_LOCAL\LECTURECPPWS23\LECTURE9CODES\CMAKE-TEMPLATE\GOOGLETEST-DOWNLOAD\CMAKEFILES\127A3F2D196F1DAF00ED54DE3EA15214\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download -BC:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/googletest-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

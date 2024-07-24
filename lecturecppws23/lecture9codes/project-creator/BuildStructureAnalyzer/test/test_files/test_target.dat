@@ -1,0 +1,6 @@
+{
+    "output_name" : "this-is-an-actual-name",
+    "target_name" : "valid-target-name",
+    "sources" : ["a.c", "b.cpp"],
+    "link_libraries": [{"type" : "STATIC", "name" : "lib_ab"},{"type" : "SHARED", "name" : "lib_cd"}]
+}

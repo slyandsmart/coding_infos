@@ -1,0 +1,637 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      Der Buildvorgang wurde am 12.12.2023 11:02:58 gestartet.
+      Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Das Verzeichnis "Debug\\CompilerIdC.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gelöscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgeführt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:02.77
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/3.28.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      Der Buildvorgang wurde am 12.12.2023 11:03:02 gestartet.
+      Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Das Verzeichnis "Debug\\CompilerIdCXX.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gelöscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgeführt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/3.28.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-82f6hy"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-82f6hy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-82f6hy'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_fac51.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:03:04 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-82f6hy\\cmTC_fac51.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_fac51.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-82f6hy\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_fac51.dir\\Debug\\cmTC_fac51.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_fac51.dir\\Debug\\cmTC_fac51.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fac51.dir\\Debug\\\\" /Fd"cmTC_fac51.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fac51.dir\\Debug\\\\" /Fd"cmTC_fac51.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-82f6hy\\Debug\\cmTC_fac51.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-82f6hy/Debug/cmTC_fac51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-82f6hy/Debug/cmTC_fac51.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fac51.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fac51.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-82f6hy\\Debug\\cmTC_fac51.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_fac51.dir\\Debug\\cmTC_fac51.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_fac51.dir\\Debug\\cmTC_fac51.tlog\\cmTC_fac51.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-82f6hy\\cmTC_fac51.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgeführt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:01.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-ux0bmo"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-ux0bmo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-ux0bmo'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_f0ec5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:03:06 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-ux0bmo\\cmTC_f0ec5.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_f0ec5.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-ux0bmo\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_f0ec5.dir\\Debug\\cmTC_f0ec5.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_f0ec5.dir\\Debug\\cmTC_f0ec5.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f0ec5.dir\\Debug\\\\" /Fd"cmTC_f0ec5.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f0ec5.dir\\Debug\\\\" /Fd"cmTC_f0ec5.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-ux0bmo\\Debug\\cmTC_f0ec5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-ux0bmo/Debug/cmTC_f0ec5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-ux0bmo/Debug/cmTC_f0ec5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f0ec5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f0ec5.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-ux0bmo\\Debug\\cmTC_f0ec5.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_f0ec5.dir\\Debug\\cmTC_f0ec5.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_f0ec5.dir\\Debug\\cmTC_f0ec5.tlog\\cmTC_f0ec5.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-ux0bmo\\cmTC_f0ec5.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgeführt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:01.04
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      Der Buildvorgang wurde am 12.12.2023 11:21:23 gestartet.
+      Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Das Verzeichnis "Debug\\CompilerIdC.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gelöscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgeführt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:01.31
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/3.28.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+      
+      Der Buildvorgang wurde am 12.12.2023 11:21:25 gestartet.
+      Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Das Verzeichnis "Debug\\CompilerIdCXX.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gelöscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgeführt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:00.98
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/3.28.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-yg9jxd"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-yg9jxd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-yg9jxd'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_888dd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:21:27 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-yg9jxd\\cmTC_888dd.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_888dd.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-yg9jxd\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_888dd.dir\\Debug\\cmTC_888dd.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_888dd.dir\\Debug\\cmTC_888dd.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_888dd.dir\\Debug\\\\" /Fd"cmTC_888dd.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_888dd.dir\\Debug\\\\" /Fd"cmTC_888dd.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-yg9jxd\\Debug\\cmTC_888dd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-yg9jxd/Debug/cmTC_888dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-yg9jxd/Debug/cmTC_888dd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_888dd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_888dd.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-yg9jxd\\Debug\\cmTC_888dd.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_888dd.dir\\Debug\\cmTC_888dd.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_888dd.dir\\Debug\\cmTC_888dd.tlog\\cmTC_888dd.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-yg9jxd\\cmTC_888dd.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgeführt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:01.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-dwhdlh"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-dwhdlh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-dwhdlh'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_556d8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:21:29 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-dwhdlh\\cmTC_556d8.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_556d8.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-dwhdlh\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_556d8.dir\\Debug\\cmTC_556d8.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_556d8.dir\\Debug\\cmTC_556d8.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_556d8.dir\\Debug\\\\" /Fd"cmTC_556d8.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_556d8.dir\\Debug\\\\" /Fd"cmTC_556d8.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-dwhdlh\\Debug\\cmTC_556d8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-dwhdlh/Debug/cmTC_556d8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-dwhdlh/Debug/cmTC_556d8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_556d8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_556d8.vcxproj -> C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-dwhdlh\\Debug\\cmTC_556d8.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_556d8.dir\\Debug\\cmTC_556d8.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_556d8.dir\\Debug\\cmTC_556d8.tlog\\cmTC_556d8.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-dwhdlh\\cmTC_556d8.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgeführt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-sb38sm"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-sb38sm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86 "
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-sb38sm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_f8883.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:22:28 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\cmTC_f8883.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_f8883.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_f8883.dir\\Debug\\cmTC_f8883.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_f8883.dir\\Debug\\cmTC_f8883.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8883.dir\\Debug\\\\" /Fd"cmTC_f8883.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8883.dir\\Debug\\\\" /Fd"cmTC_f8883.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\src.c"
+          src.c
+          
+        C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\src.c(1): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\cmTC_f8883.vcxproj]
+        Die Erstellung des Projekts "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\cmTC_f8883.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\cmTC_f8883.vcxproj" (Standardziel) (1) ->
+        (ClCompile Ziel) -> 
+          C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\src.c(1): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-sb38sm\\cmTC_f8883.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.92
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-jnjany"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-jnjany"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86 "
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-jnjany'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_28e9f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:22:30 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\cmTC_28e9f.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_28e9f.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_28e9f.dir\\Debug\\cmTC_28e9f.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_28e9f.dir\\Debug\\cmTC_28e9f.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28e9f.dir\\Debug\\\\" /Fd"cmTC_28e9f.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\CheckFunctionExists.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28e9f.dir\\Debug\\\\" /Fd"cmTC_28e9f.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\Debug\\cmTC_28e9f.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-jnjany/Debug/cmTC_28e9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-jnjany/Debug/cmTC_28e9f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_28e9f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge÷ffnet werden. [C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\cmTC_28e9f.vcxproj]
+        Die Erstellung des Projekts "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\cmTC_28e9f.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\cmTC_28e9f.vcxproj" (Standardziel) (1) ->
+        (Link Ziel) -> 
+          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge÷ffnet werden. [C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-jnjany\\cmTC_28e9f.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-16rbcx"
+      binary: "C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-16rbcx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86 "
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-16rbcx'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_704d5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R)-Build-Engine, Version 15.9.21+g9802d43bc3 für .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+        
+        Der Buildvorgang wurde am 12.12.2023 11:22:31 gestartet.
+        Projekt "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\cmTC_704d5.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_704d5.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_704d5.dir\\Debug\\cmTC_704d5.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_704d5.dir\\Debug\\cmTC_704d5.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_704d5.dir\\Debug\\\\" /Fd"cmTC_704d5.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\CheckFunctionExists.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.16.27045 für x86
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_704d5.dir\\Debug\\\\" /Fd"cmTC_704d5.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\Debug\\cmTC_704d5.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-16rbcx/Debug/cmTC_704d5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git_local/lecturecppws23/lecture9codes/cmake-template/CMakeFiles/CMakeScratch/TryCompile-16rbcx/Debug/cmTC_704d5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_704d5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge÷ffnet werden. [C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\cmTC_704d5.vcxproj]
+        Die Erstellung des Projekts "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\cmTC_704d5.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        
+        Fehler beim Buildvorgang.
+        
+        "C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\cmTC_704d5.vcxproj" (Standardziel) (1) ->
+        (Link Ziel) -> 
+          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge÷ffnet werden. [C:\\Git_local\\lecturecppws23\\lecture9codes\\cmake-template\\CMakeFiles\\CMakeScratch\\TryCompile-16rbcx\\cmTC_704d5.vcxproj]
+        
+            0 Warnung(en)
+            1 Fehler
+        
+        Verstrichene Zeit 00:00:00.74
+        
+      exitCode: 1
+...

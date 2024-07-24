@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = a.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+hellomake: a.o b.o
+	gcc -o run a.o b.o -I.
+
+
+.PHONY: clean
+clean:
+	rm -f *.o run

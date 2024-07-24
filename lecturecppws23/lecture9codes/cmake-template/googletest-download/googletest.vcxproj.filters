@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\dc1c7728fe0230fddd2484aa0c428244\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\f3c672189f19b967de006e67905d08c9\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\127a3f2d196f1daf00ed54de3ea15214\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Git_local\lecturecppws23\lecture9codes\cmake-template\googletest-download\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E21F4028-1C29-3033-A2B4-B78583868250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

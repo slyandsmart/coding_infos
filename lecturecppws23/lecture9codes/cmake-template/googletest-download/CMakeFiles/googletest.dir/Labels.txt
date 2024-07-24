@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/googletest
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/127a3f2d196f1daf00ed54de3ea15214/googletest.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/f3c672189f19b967de006e67905d08c9/googletest-complete.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-build.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-configure.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-download.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-install.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-mkdir.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-patch.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-test.rule
+C:/Git_local/lecturecppws23/lecture9codes/cmake-template/googletest-download/CMakeFiles/dc1c7728fe0230fddd2484aa0c428244/googletest-update.rule

@@ -1,0 +1,24 @@
+IDIR =../include
+CC=gcc
+CFLAGS=-I$(IDIR)
+
+ODIR=obj
+LDIR =../lib
+
+_DEPS = a.h
+DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
+
+_OBJ = a.o b.o
+OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
+
+
+$(ODIR)/%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+run: $(OBJ)
+	gcc -o $@ $^ $(CFLAGS)
+
+
+.PHONY: clean
+clean:
+	rm -f *.o run

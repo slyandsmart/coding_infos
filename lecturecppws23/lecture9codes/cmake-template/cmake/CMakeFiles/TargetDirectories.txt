@@ -1,0 +1,2 @@
+/mnt/c/Git_local/lecturecppws23/lecture9codes/cmake-template/cmake/CMakeFiles/rebuild_cache.dir
+/mnt/c/Git_local/lecturecppws23/lecture9codes/cmake-template/cmake/CMakeFiles/edit_cache.dir
