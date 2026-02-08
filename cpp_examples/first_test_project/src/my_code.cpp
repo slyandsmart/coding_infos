@@ -5,6 +5,23 @@ int add(int x, int y)
     return x + y;
 }
 
+
+void spinner(int spin_seconds) {
+    static char const spin_chars[] = "/-\\|";
+    unsigned long i, num_iterations = (spin_seconds * 10);
+
+    for (i=0; i<num_iterations; ++i) {
+        std::cout << "\r" << spin_chars[i % 4] << std::flush; // Print the current spinner character and flush the output buffer
+        usleep(50000);
+    }
+}
+
+
+
+
+
+
+
 // Implementation of the Person class methods
 // The constructor initializes the name and age of the person using an initializer list
 Person::Person(const std::string& name_init, 

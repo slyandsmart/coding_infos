@@ -1,10 +1,26 @@
 // We really should have a header guard here, but will omit it for simplicity (we'll cover header guards in the next lesson)
 
 #include <iostream>
+#include <unistd.h>
+
+
+// Printout collors https://medium.com/@vitorcosta.matias/print-coloured-texts-in-console-a0db6f589138
+#define ESC "\033["
+#define LIGHT_BLUE_BKG "106"
+#define RED_BKG "101"
+#define WHITE_BKG "7"
+#define GREEN_TXT "32"
+#define RED_TXT "31"
+#define PURPLE_TXT "35"
+#define WHITE_TXT "0"
+#define RESET "\033[m"
+
+
 // Add some header guards to prevent multiple inclusions of this header file
 # pragma once
 // This is the content of the .h file, which is where the declarations go
 int add(int x, int y); // function prototype for add.h -- don't forget the semicolon!
+void spinner(int spin_seconds); 
 
 
 class Person
